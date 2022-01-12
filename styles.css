@@ -1,0 +1,319 @@
+/* Body Styles */
+
+body {
+  overflow-x: hidden;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* The First Page itemx */
+.landing-page {
+  width: 100%;
+  height: 660px;
+  color: grey;
+  background-color: #ffffff;
+  color: black;
+}
+
+.text {
+  position: relative;
+  left: 300px;
+  top: 120px;
+}
+
+#intro {
+  color: hsl(196, 34%, 15%);
+  font-size: 40px;
+  position: relative;
+  font-weight: bold;
+  left: 170px;
+  top: 120px;
+}
+
+#Subtitle {
+  font-size: 55px;
+  position: relative;
+  left: 170px;
+  font-weight: bold;
+  top: 120px;
+}
+
+#myname {
+  color: #4548ed;
+  font-weight: 10px;
+}
+
+/* The Blue first Image */
+#frontimg {
+  width: 500px;
+  position: relative;
+  top: -10px;
+}
+.card:hover{
+  background-color: rgb(134, 134, 134);
+}
+.cardimg {
+  width: 220px;
+  height: 200px;
+  position: relative;
+  left: 0px;
+}
+
+/* The circle on the left side */
+.dot {
+  position: relative;
+  top: -50px;
+  left: -500px;
+  height: 625px;
+  width: 625px;
+  background-color: #4548ed;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* The Resume Button on the top */
+#contactbtn {
+  background-color: #ff847c;
+  color: white;
+}
+
+/* The know More button */
+#know {
+  position: relative;
+  top: 170px;
+  color: white;
+  background-color: #ff847c;
+  left: 170px;
+}
+
+#navigation-items a {
+  background-color: aliceblue;
+  color: #4548ed;
+  margin-left: 45px;
+  font-size: 20px;
+}
+
+
+/* The introduction section */
+.introduction {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+#introimage {
+  width: 450px;
+  position: relative;
+  left: -400px;
+  top: 150px;
+}
+
+#skills_topic {
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+  left: 205px;
+}
+.myprojects{
+  display: flex;
+  width: 900px;
+  text-align: center;
+  background-color: #91b3fa;
+}
+#myself {
+  background-color: #4548ed;
+  width: 600px;
+  border-radius: 10%;
+  border-color: #ff847c;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin: 5px;
+  position: relative;
+  top: -180px;
+  left: -50px;
+  padding: 25px;
+  display: flex;
+}
+#projectslist{
+  position: relative;
+  top: 150px;
+  text-align: left;
+  background-color:#4548ed;
+  font-size: 25px;
+  list-style: none;
+  padding-top:25px;
+}
+#list2{
+  position: relative;
+
+}
+.card{
+  background-color: #91b3fa;
+  width: 300px;
+  height: auto;
+  margin-left: 150px;
+}
+#introtopic {
+  position: relative;
+  top: 45px;
+  font-weight: bold;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 0px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#projects{
+  position: relative;
+  top: 100px;
+  left: 200px;
+  font-weight: bold;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  height: 350px;
+  position: relative;
+  left: 50px;
+  margin-top: 0px;
+  padding-left: 56px;
+  margin-left: 100px;
+
+}
+
+.textincard {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .card {
+    position: relative;
+    left: -10px;
+    background-color: white;
+
+  }
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #91b3fa;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+  #frontimg {
+    position: relative;
+    top: 170px;
+    left: -50px;
+    width: 350px;
+  }
+
+  .row {
+    background-color: #4548ed;
+    position: relative;
+    left: 10px;
+  }
+
+  .column {
+    position: relative;
+    top: -100px;
+    left: -30px;
+  }
+
+  #skills_topic {
+    font-weight: bold;
+    position: relative;
+    top: -220px;
+    left: 50px;
+  }
+
+  .dot {
+    width: 400px;
+  }
+
+  #introtopic {
+    position: relative;
+    top: 45px;
+    font-weight: bold;
+  }
+
+  #intro {
+    position: relative;
+    left: 20px;
+  }
+
+  #myself {
+    width: 400px;
+    position: relative;
+    left: 0px;
+    top: -350px;
+  }
+
+  #introimage {
+    display: none;
+  }
+
+  #Subtitle {
+    position: relative;
+    left: 20px;
+  }
+
+  #navigation-items {
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+  }
+
+  #contactbtn {
+    width: 145px;
+  }
+
+  .cardimg {
+    position: relative;
+    left: 30px;
+  }
+
+  #projects{
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    color: black;
+    left: 50px;
+  }
+}
